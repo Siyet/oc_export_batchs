@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T11:41:38.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="3UnxLN3sHCO9hy2BvS0b" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T12:51:19.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="8ALWCbQckGEwwX423-hT" version="14.9.8" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="2021" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1677,6 +1677,9 @@
         </mxCell>
         <mxCell id="wyrPtBUcrTNzgTcPgrUa-9" value="UPDATE /api/export-product-batch/delivery-passports" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="80" y="2440" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wyrPtBUcrTNzgTcPgrUa-25" value="DELETE /api/export-product-batch/templates" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="2280" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
