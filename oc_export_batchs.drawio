@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T10:17:08.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="wAX_iefLnsE2Q0J1-jRD" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T10:31:56.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="VuLP-l0y83nAP4iQuz1j" version="14.9.8" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="2304" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -744,7 +744,7 @@
         <mxCell id="boM8Fp75N3sVBavPqf3y-128" value="tank_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#A680B8;" parent="boM8Fp75N3sVBavPqf3y-127" vertex="1">
           <mxGeometry width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="boM8Fp75N3sVBavPqf3y-129" value="№ резервуара" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="boM8Fp75N3sVBavPqf3y-127" vertex="1">
+        <mxCell id="boM8Fp75N3sVBavPqf3y-129" value="№ резервуара НПЗ" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="boM8Fp75N3sVBavPqf3y-127" vertex="1">
           <mxGeometry x="130" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="boM8Fp75N3sVBavPqf3y-133" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#EA6B66;strokeColor=#B5739D;" parent="boM8Fp75N3sVBavPqf3y-105" vertex="1">
@@ -1477,11 +1477,11 @@
         <mxCell id="8z62DJYcFpj8DUtfbUGO-95" value="GET /api/export-product-batch/product-batchs&lt;br&gt;?page=&amp;amp;start=&amp;amp;end=&amp;amp;refinery=&amp;amp;product=&amp;amp;base=&amp;amp;no=" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="80" y="2040" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8z62DJYcFpj8DUtfbUGO-98" value="GET /api/export-product-batch/delivery-passports&lt;br&gt;&lt;div&gt;&lt;span&gt;?page=&amp;amp;start=&amp;amp;end=&amp;amp;station_destination=&amp;amp;product=&amp;amp;passport&amp;amp;waybill=&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="8z62DJYcFpj8DUtfbUGO-98" value="GET /api/export-product-batch/delivery-passports&lt;br&gt;&lt;div&gt;&lt;span&gt;?page=&amp;amp;start=&amp;amp;end=&amp;amp;station_depart=&amp;amp;product=&amp;amp;passport&amp;amp;waybill=&amp;amp;tank=&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="80.03" y="2280" width="480" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8z62DJYcFpj8DUtfbUGO-99" value="Обсудить перечень фильтров" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="440.03" y="2350" width="120" height="40" as="geometry" />
+          <mxGeometry x="610" y="2280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8z62DJYcFpj8DUtfbUGO-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#999999;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="8z62DJYcFpj8DUtfbUGO-99" target="8z62DJYcFpj8DUtfbUGO-98" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1593,7 +1593,7 @@
               <mxPoint x="-380" y="1635" />
               <mxPoint x="-380" y="2010" />
               <mxPoint x="1580" y="2010" />
-              <mxPoint x="1580" y="1595" />
+              <mxPoint x="1580" y="1625" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1623,6 +1623,24 @@
         </mxCell>
         <mxCell id="wyrPtBUcrTNzgTcPgrUa-6" value="UPDATE /api/export-product-batch/tank-rests" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="600" y="2200" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wyrPtBUcrTNzgTcPgrUa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;fontColor=#A680B8;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="CA9-zons2UcCvZ7FdS-7-21" target="8z62DJYcFpj8DUtfbUGO-134">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="75" />
+              <mxPoint x="90" y="920" />
+              <mxPoint x="-710" y="920" />
+              <mxPoint x="-710" y="1695" />
+            </Array>
+            <mxPoint x="190" y="115" as="sourcePoint" />
+            <mxPoint x="220" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyrPtBUcrTNzgTcPgrUa-8" value="PUT /api/export-product-batch/delivery-passports" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2360" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wyrPtBUcrTNzgTcPgrUa-9" value="UPDATE /api/export-product-batch/delivery-passports" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2440" width="480" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
